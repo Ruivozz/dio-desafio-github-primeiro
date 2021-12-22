@@ -4,9 +4,6 @@
 
 - instalação
 - comandos básicos
-- o que é blobs
-- o que é tree
-- o que é commit
 - o que é o github
 
 ### instalação
@@ -69,22 +66,6 @@ Se usa o commit depois de já ter feito o **git add.**
 comando:
 
 git commit -m "mensagem desejada"
-
-
-
-### O que é blobs
-
-É quando se armazena o comando Git em um único local ou uma única bolha/Blob.
-
-### O que é uma tree
-
-Uma Tree(ou uma árvore) é um conjunto de Blobs, a tree pode ser formada de mais blobs ou de outras tree.
-
-### O que é commit
-
-Um Commit é um pacote de alterações feitas no repositório, que estará apontando para as tree.
-
-
 
 ### O que é o Github
 
