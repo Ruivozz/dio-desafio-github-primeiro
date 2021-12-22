@@ -1,0 +1,84 @@
+# Introdução ao Git
+
+
+
+- instalação
+- comandos básicos
+- o que é blobs
+- o que é tree
+- o que é commit
+
+### instalação
+
+Para você instalar o Git precisará acessar o site: https://git-scm.com/downloads
+
+se  seu computador for Windows apertará: "Download for Windows"
+
+se seu computador for Linux apertará: Linux/Unix depois baixara a versão que deseja
+
+se seu computador foi macOS apertará: macOS e ira instalar a versão desejada
+
+
+
+### comandos básicos do Git
+
+#### git config
+
+O  git config servira para você definir seu nome e seu e-mail. Isso será importante porque todos os commits no Git ultilizam essas informações.
+
+comandos:
+
+git config --global user.name "Ruivozz"
+
+git config --global user.email Ruivozz@exemple.com
+
+#### git init
+
+O git init criara um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório
+
+comandos:
+
+git init
+
+#### git  clone
+
+Para clonar um repositório use **git clone [url]**.
+
+#### git add
+
+Quando um repositório é inicialmente clonado, todos os seus arquivos estarão monitorados e inalterados porque você simplesmente os obteve e ainda não os editou. Conforme você edita esses arquivos, o Git passa a vê-los como modificados, porque você os alterou desde seu último commit. Você seleciona esses arquivos modificados e então faz o commit de todas as alterações selecionadas e o ciclo se repete.
+
+comando:
+
+git add 
+
+#### git status
+
+A principal ferramenta utilizada para determinar quais arquivos estão em quais estados
+
+comando
+
+git status
+
+#### git commit
+
+Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.
+Se usa o commit depois de já ter feito o **git add**
+
+comando:
+
+git commit -m "mensagem desejada"
+
+
+
+### O que é blobs
+
+É quando se armazena o comando Git em um único local ou uma única bolha/Blob
+
+### O que é uma tree
+
+Uma Tree(ou uma árvore) é um conjunto de Blobs, a tree pode ser formada de mais blobs ou de outras tree
+
+### O que é commit
+
+Um Commit é um pacote de alterações feitas no repositório, que estará apontando para as tree
