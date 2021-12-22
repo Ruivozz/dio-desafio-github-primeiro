@@ -7,16 +7,17 @@
 - o que é blobs
 - o que é tree
 - o que é commit
+- o que é o github
 
 ### instalação
 
-Para você instalar o Git precisará acessar o site: https://git-scm.com/downloads
+Para você instalar o Git precisará acessar o site: https://git-scm.com/downloads.
 
-se  seu computador for Windows apertará: "Download for Windows"
+se  seu computador for Windows apertará: "Download for Windows".
 
-se seu computador for Linux apertará: Linux/Unix depois baixara a versão que deseja
+se seu computador for Linux apertará: Linux/Unix depois baixara a versão que deseja.
 
-se seu computador foi macOS apertará: macOS e ira instalar a versão desejada
+se seu computador foi macOS apertará: macOS e ira instalar a versão desejada.
 
 
 
@@ -34,7 +35,7 @@ git config --global user.email Ruivozz@exemple.com
 
 #### git init
 
-O git init criara um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório
+O git init criara um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório.
 
 comandos:
 
@@ -63,7 +64,7 @@ git status
 #### git commit
 
 Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.
-Se usa o commit depois de já ter feito o **git add**
+Se usa o commit depois de já ter feito o **git add.**
 
 comando:
 
@@ -73,12 +74,18 @@ git commit -m "mensagem desejada"
 
 ### O que é blobs
 
-É quando se armazena o comando Git em um único local ou uma única bolha/Blob
+É quando se armazena o comando Git em um único local ou uma única bolha/Blob.
 
 ### O que é uma tree
 
-Uma Tree(ou uma árvore) é um conjunto de Blobs, a tree pode ser formada de mais blobs ou de outras tree
+Uma Tree(ou uma árvore) é um conjunto de Blobs, a tree pode ser formada de mais blobs ou de outras tree.
 
 ### O que é commit
 
-Um Commit é um pacote de alterações feitas no repositório, que estará apontando para as tree
+Um Commit é um pacote de alterações feitas no repositório, que estará apontando para as tree.
+
+
+
+### O que é o Github
+
+O Github é uma plataforma de hospedagem de código-fonte, que permite o usuário colocar seus códigos para os outros devs verem e poderem discutir uns com os outros para uma possível melhora nos códigos, também para algumas empresas olharem se seus devs ou até mesmo olhar algumas pessoas que possam ser uma possível contratação.
